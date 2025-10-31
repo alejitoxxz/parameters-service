@@ -26,8 +26,7 @@ public class ParameterCatalog {
 		return parameters.remove(key);
 	}
 	
-	public static Map<String, Parameter> getAllParameters() {
-		return parameters;
-	}
-	
+        public static Map<String, Parameter> getAllParameters() {
+                return parameters;
+        }
 }
