@@ -21,7 +21,7 @@ public final class ParameterCatalog {
         PARAMETERS.put(CORREO_ADMINISTRADOR,            new Parameter(CORREO_ADMINISTRADOR, "josevalenciahenao6@gmail.com"));
         PARAMETERS.put(NUM_MAX_REINTENTOS_ENVIO_CORREO, new Parameter(NUM_MAX_REINTENTOS_ENVIO_CORREO, "8"));
         // Sugeridos para tu lógica de verificación:
-        PARAMETERS.put(DURACION_TOKEN_MINUTOS,          new Parameter(DURACION_TOKEN_MINUTOS, "15"));
+        PARAMETERS.put(DURACION_TOKEN_MINUTOS,          new Parameter(DURACION_TOKEN_MINUTOS, "5"));
         PARAMETERS.put(NUM_MAX_REINTENTOS_CONFIRMACION, new Parameter(NUM_MAX_REINTENTOS_CONFIRMACION, "3"));
     }
 
